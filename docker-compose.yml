@@ -5,7 +5,7 @@ services:
     image: golang:1.15
     container_name: "request-log"
     ports:
-      - "18082:80"
+      - "80:80"
       - "443:443"
     working_dir: "/go/src/gitlab.com/tsuchinaga/go-web-request-log"
     volumes:
